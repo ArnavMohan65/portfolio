@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Outer Obsidian Angular Shield -->
+  <polygon points="6,8 60,4 56,58 4,54" fill="#070709" stroke="#F8F8F8" stroke-width="2.5" />
+  
+  <!-- Inner Crimson Phantom Slash -->
+  <polygon points="10,12 56,8 50,52 8,48" fill="#E60012" />
+  
+  <!-- Tactical Cyan Corner Telemetry Cut -->
+  <polygon points="44,8 56,8 54,20" fill="#00F0FF" />
+  <polygon points="8,40 18,48 8,48" fill="#070709" />
+
+  <!-- Bold Angular 'A' Monogram -->
+  <path d="M21 44 L29 16 L36 16 L43 44 L36.5 44 L35 37 L28.5 37 L27 44 Z M29.8 31.5 L33.8 31.5 L32 22.5 Z" fill="#F8F8F8" />
+  
+  <!-- Bottom Shadow Bar -->
+  <line x1="12" y1="53" x2="54" y2="55" stroke="#00F0FF" stroke-width="2" />
+</svg>

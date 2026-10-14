@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  background-color: #070709;
+  color: #f8f8f8;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Irregular Persona 5 Polygon Masks */
+.clip-p5-panel {
+  clip-path: polygon(0% 1%, 98.5% 0%, 100% 97%, 99% 100%, 1% 99%, 0% 4%);
+}
+.clip-p5-card {
+  clip-path: polygon(0 0, 97% 0, 100% 6%, 100% 100%, 3% 100%, 0 94%);
+}
+.clip-p5-btn {
+  clip-path: polygon(8% 0, 100% 0, 92% 100%, 0% 100%);
+}
+.clip-p5-tag {
+  clip-path: polygon(6% 0, 100% 0, 94% 100%, 0% 100%);
+}
+.clip-p5-header-bar {
+  clip-path: polygon(0 0, 100% 12%, 97% 100%, 2% 92%);
+}
+
+/* Halftone & Editorial Textures */
+.bg-halftone {
+  background-image: radial-gradient(rgba(230, 0, 18, 0.2) 1.5px, transparent 1.5px);
+  background-size: 12px 12px;
+}
+.bg-diagonal-stripes {
+  background: repeating-linear-gradient(
+    -45deg,
+    rgba(230, 0, 18, 0.09),
+    rgba(230, 0, 18, 0.09) 8px,
+    transparent 8px,
+    transparent 16px
+  );
+}
+.bg-grid-pattern {
+  background-size: 36px 36px;
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+}
+.text-stroke-white {
+  -webkit-text-stroke: 1.5px rgba(248, 248, 248, 0.28);
+  color: transparent;
+}
+.text-stroke-red {
+  -webkit-text-stroke: 1.5px #e60012;
+  color: transparent;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+}
